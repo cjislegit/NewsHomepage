@@ -10,6 +10,13 @@ const Navbar = () => {
         <img src={logo} alt='News logo' />
       </div>
       <div className={styles.navbarMenu}>
+        <ul>
+          <li className='menuItem'>Home</li>
+          <li className='menuItem'>News</li>
+          <li className='menuItem'>Popular</li>
+          <li className='menuItem'>Trending</li>
+          <li className='menuItem'>Categories</li>
+        </ul>
         <img src={menu} alt='Hamburger menu icon' />
       </div>
     </header>

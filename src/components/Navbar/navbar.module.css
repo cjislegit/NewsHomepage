@@ -5,3 +5,18 @@
   width: 100%;
   padding: 30px 10px;
 }
+
+.navbarMenu ul {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .navbarMenu img {
+    display: none;
+  }
+
+  .navbarMenu ul {
+    display: flex;
+    gap: 30px;
+  }
+}
