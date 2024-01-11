@@ -16,7 +16,7 @@
 }
 
 html {
-  background-color: white;
+  background-color: red;
   display: flex;
   justify-content: center;
 }
@@ -24,6 +24,8 @@ html {
 body {
   max-width: 1440px;
   width: 100%;
+  background-color: white;
+  padding: 0 150px;
 }
 
 ul {
