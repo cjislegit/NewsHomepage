@@ -102,11 +102,26 @@
 .topContent {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .topContainer {
   padding-top: 50px;
+}
+.topRank {
+  font-weight: 800;
+  font-size: 2em;
+  color: var(--grayBlue);
+}
+
+.topHeadline {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.topBody {
+  line-height: 1.5;
+  color: var(--darkGrayBlue);
 }
 
 @media (min-width: 1200px) {
