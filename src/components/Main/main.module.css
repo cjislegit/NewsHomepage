@@ -34,9 +34,11 @@
 .mainContainer input {
   background-color: var(--red);
   color: white;
-  padding: 12px 50px;
+  padding: 12px 0px;
   border: none;
-  max-width: 200px;
+  max-width: 160px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .newContainer {
@@ -91,7 +93,7 @@
   width: 100%;
   max-height: 130px;
   margin-bottom: 30px;
-  max-width: 340px;
+  max-width: 360px;
 }
 
 .topImg {
@@ -106,7 +108,8 @@
 }
 
 .topContainer {
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  justify-content: space-between;
 }
 .topRank {
   font-weight: 800;
