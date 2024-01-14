@@ -19,5 +19,21 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  padding: 20px;
+  gap: 100px;
+}
+
+.mobileMenuClose {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobileMenu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobileMenu ul li {
+  font-size: 1.5em;
 }
