@@ -1,4 +1,5 @@
 import Main from './components/Main/main';
+import MobileMenu from './components/MobileMenu/mobileMenu';
 import Navbar from './components/Navbar/navbar';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className='App'>
       <Navbar />
       <Main />
+      <MobileMenu />
     </div>
   );
 }
