@@ -2,12 +2,12 @@ import styles from './mobileMenu.module.css';
 
 import iconMenuClose from '../../assets/images/icon-menu-close.svg';
 
-const MobileMenu = () => {
+const MobileMenu = ({ menu, closeMenu }) => {
   return (
-    <div className={styles.mobileMenuOverlay}>
+    <div className={menu ? styles.closed : styles.mobileMenuOverlay}>
       <div className={styles.mobileMenuContainer}>
         <div className={styles.mobileMenuClose}>
-          <img src={iconMenuClose} alt='Close menu' />
+          <img src={iconMenuClose} alt='Close menu' onClick={closeMenu} />
         </div>
         <div className={styles.mobileMenu}>
           <ul>

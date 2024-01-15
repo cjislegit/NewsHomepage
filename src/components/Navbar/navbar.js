@@ -3,13 +3,13 @@ import styles from './navbar.module.css';
 import menu from '../../assets/images/icon-menu.svg';
 import logo from '../../assets/images/logo.svg';
 
-const Navbar = () => {
+const Navbar = ({ openMenu }) => {
   return (
     <header className={styles.navbarContainer}>
       <div className={styles.navbarLogo}>
         <img src={logo} alt='News logo' />
       </div>
-      <div className={styles.navbarMenu}>
+      <div className={styles.navbarMenu} onClick={openMenu}>
         <ul>
           <li className='menuItem'>Home</li>
           <li className='menuItem'>News</li>

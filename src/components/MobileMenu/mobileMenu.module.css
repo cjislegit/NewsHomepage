@@ -37,3 +37,7 @@
 .mobileMenu ul li {
   font-size: 1.5em;
 }
+
+.closed {
+  display: none;
+}
