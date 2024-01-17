@@ -78,20 +78,20 @@
 
 .newHeadline {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .topContainer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 50px;
 }
 
 .topStory {
   display: flex;
   gap: 20px;
   width: 100%;
-  max-height: 130px;
   margin-bottom: 30px;
   max-width: 360px;
 }
@@ -99,6 +99,7 @@
 .topImg {
   width: auto;
   height: 100%;
+  max-height: 130px;
 }
 
 .topContent {
@@ -118,7 +119,7 @@
 }
 
 .topHeadline {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.2em;
 }
 
