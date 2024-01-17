@@ -10,6 +10,11 @@
   display: none;
 }
 
+.navbarMenu li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .navbarMenu img {
     display: none;

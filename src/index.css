@@ -16,10 +16,12 @@
 }
 
 html {
-  background-color: red;
+  background-color: var(--grayBlue);
   display: flex;
   justify-content: center;
   padding: 0;
+  align-items: center;
+  height: 100vh;
 }
 
 body {

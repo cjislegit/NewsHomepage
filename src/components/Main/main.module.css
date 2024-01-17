@@ -39,6 +39,12 @@
   max-width: 160px;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.mainContainer input:hover {
+  background-color: var(--darkBlue);
 }
 
 .newContainer {
@@ -78,7 +84,12 @@
 
 .newHeadline {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.newHeadline:hover {
+  color: var(--orange);
 }
 
 .topContainer {
@@ -120,7 +131,12 @@
 
 .topHeadline {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.topHeadline:hover {
+  color: var(--orange);
 }
 
 .topBody {
